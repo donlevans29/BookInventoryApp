@@ -12,6 +12,22 @@ function App() {
         <div>
           <input className="book" placeholder="Search Books"></input><button style={{padding: "1px"}}>Submit</button>
         </div>
+    
+   /*
+   
+   Craete a class function.
+   Later this will be refactored into a constructor class.
+   
+   class books(title, author, ISBN, numCopies) {
+    this.title = title;
+    this.author=author;
+    this.ISBN=ISBN;
+    this.numCopies=numCopies;
+   
+   }
+   
+   
+   */
 
     </div>
     
