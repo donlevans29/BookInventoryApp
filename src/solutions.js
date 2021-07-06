@@ -12,15 +12,22 @@ function getAvaliliability() {
  
 getAvaliliability();
 
-
+// GETTER SETTER METHOD
 const vehicle = {
   make: "Cheverolet",
   model: "Corvette",
   trim: "Z06",
   year: 2018,
-vehicleModel (){
-  return `${vehicle.model} ${vehicle.trim}`;
-  }
+get vehicleModel (){
+   return `${vehicle.model} ${vehicle.trim}`;
+    },
+set vehicleModel(value) {
+    const parts = value.split (' ');
+    this.model = parts[0];
+    this.trim = parts[1];
+    },
 };
 
-console.log(vehicle.vehicleModel());
+vehicle.vehicleModel = "Chevy C8"
+
+console.log(vehicle);
