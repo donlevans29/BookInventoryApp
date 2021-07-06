@@ -1,5 +1,7 @@
 import React from "react"
 
+// Create a class for books so we can create 100's
+
 const Books = [
   {
     Title:"Papi Codes Javascript",
