@@ -18,7 +18,7 @@ function App() {
    Craete a class function.
    Later this will be refactored into a constructor class.
    
-   class books(title, author, ISBN, numCopies) {
+  function books(title, author, ISBN, numCopies) {
     this.title = title;
     this.author=author;
     this.ISBN=ISBN;
