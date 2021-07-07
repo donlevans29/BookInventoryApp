@@ -26,6 +26,17 @@ function App() {
    
    }
    
+   // function to show stock levels
+function getAvailiability (numCopies) {
+  if (numCopies === 0 ) {
+    return "Out of Stock 😞";
+  } else if (numCopies < 10) {
+    return "Low Stock 😨";
+  }
+  return "In Stock 🤠";
+}
+
+console.log(getAvailiability(0));
    
    */
 
